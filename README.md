@@ -1,4 +1,4 @@
-# aicontentdrop-com
+# AI Content Drop
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-aicontentdrop-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://aicontentdrop.com/
+AI Content Drop provides an AI-powered video generation platform that transforms text prompts into high-quality video ads, marketing content, and social media clips. The service offers a suite of tools including ad‑spy, marketing‑studio, canvas planning, and a marketplace of AI models such as Kling, Sora, and Veo‑3. Users can create, edit, and publish videos quickly, leveraging features like caption generation, hashtag tools, and e‑commerce use‑case templates. The company emphasizes ease of use, rapid iteration, and integration with popular e‑commerce and social platforms, aiming to democratize video creation for creators, agencies, and brands.
+
+**Areas:** AI · Video · Marketing · ContentCreation · SaaS
+
+## AI Content Drop on APIs.io
+
+Everything profiled for AI Content Drop is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aicontentdrop-com/](https://apis.io/providers/aicontentdrop-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [AI Content Drop Account API](https://apis.io/apis/aicontentdrop-com/aicontentdrop-com-account-api/) — API-key identity and credit balance
+- [AI Content Drop Authentication API](https://apis.io/apis/aicontentdrop-com/aicontentdrop-com-authentication-api/) — The Authentication API from AI Content Drop — 1 operation(s) for authentication.
+- [AI Content Drop Batch API](https://apis.io/apis/aicontentdrop-com/aicontentdrop-com-batch-api/) — Run many read operations in one request instead of looping.
+- [AI Content Drop Discovery API](https://apis.io/apis/aicontentdrop-com/aicontentdrop-com-discovery-api/) — Unauthenticated index and capability discovery
+- [AI Content Drop Drops API](https://apis.io/apis/aicontentdrop-com/aicontentdrop-com-drops-api/) — A drop is one piece of work that runs from research through concepts, a plan, generation and assembly without the caller moving it between endpoints.…
+- [AI Content Drop Generation API](https://apis.io/apis/aicontentdrop-com/aicontentdrop-com-generation-api/) — Start and poll video/image generations (submit-and-poll)
+- [AI Content Drop Models API](https://apis.io/apis/aicontentdrop-com/aicontentdrop-com-models-api/) — Model catalogue and credit-cost estimates
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Aicontentdrop Com Agentic Access](https://apis.io/agentic-access/aicontentdrop-com/aicontentdrop-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentRegistration](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-agent-registration/)
+- [DropBrief](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-drop-brief/)
+- [DropLanes](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-drop-lanes/)
+- [DropProposal](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-drop-proposal/)
+- [Plans](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-plans/)
+- [SignupInitiated](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-signup-initiated/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Aicontentdrop Com Context](https://apis.io/jsonld/aicontentdrop-com/aicontentdrop-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AI Content Drop API Rules](https://apis.io/rules/aicontentdrop-com/aicontentdrop-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aicontentdrop Com Authentication](https://apis.io/security/aicontentdrop-com/aicontentdrop-com-authentication/)
+- [Aicontentdrop Com Domain Security](https://apis.io/security/aicontentdrop-com/aicontentdrop-com-domain-security/)
+- [Aicontentdrop Com Vulnerability Disclosure](https://apis.io/security/aicontentdrop-com/aicontentdrop-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aicontentdrop Com Plans Pricing](https://apis.io/plans/aicontentdrop-com/aicontentdrop-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Aicontentdrop Com Rate Limits](https://apis.io/rate-limits/aicontentdrop-com/aicontentdrop-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aicontentdrop.com/)
+- [Documentation](https://aicontentdrop.com/docs)
+- [Getting started](https://aicontentdrop.com/.well-known/agent-onboarding.json)
+- [Pricing](https://aicontentdrop.com/pricing)
+- [Sign up](https://aicontentdrop.com/register)
+- [Support](https://aicontentdrop.com/support)
+- [Blog](https://aicontentdrop.com/blog)
+- [Security](https://aicontentdrop.com/terms-of-use)
+- [Terms of service](https://aicontentdrop.com/terms-of-use)
+- [Privacy policy](https://aicontentdrop.com/privacy-policy)
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/aicontentdrop-com/](https://apis.io/providers/aicontentdrop-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AI Content Drop: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aicontentdrop-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
