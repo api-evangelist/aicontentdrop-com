@@ -66,7 +66,7 @@
 
 AI Content Drop provides an AI-powered video generation platform that transforms text prompts into high-quality video ads, marketing content, and social media clips. The service offers a suite of tools including ad‑spy, marketing‑studio, canvas planning, and a marketplace of AI models such as Kling, Sora, and Veo‑3. Users can create, edit, and publish videos quickly, leveraging features like caption generation, hashtag tools, and e‑commerce use‑case templates. The company emphasizes ease of use, rapid iteration, and integration with popular e‑commerce and social platforms, aiming to democratize video creation for creators, agencies, and brands.
 
-**Areas:** AI · Video · Marketing · ContentCreation · SaaS
+**Areas:** Artificial Intelligence · Video · Marketing · Content Creation · Software-as-a-Service
 
 ## AI Content Drop on APIs.io
 
@@ -86,22 +86,31 @@ Everything profiled for AI Content Drop is published on APIs.io rather than in t
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [aicontentdrop-com-mcp.yml](https://apis.io/servers/aicontentdrop-com/aicontentdrop-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Aicontentdrop Com Agentic Access](https://apis.io/agentic-access/aicontentdrop-com/aicontentdrop-com-agentic-access/)
+- [AI Content Drop Agentic Access](https://apis.io/agentic-access/aicontentdrop-com/aicontentdrop-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (9)
 
 The data models the API reads and writes.
 
 - [AgentRegistration](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-agent-registration/)
+- [AgentSkillsIndex](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-agent-skills-index/)
 - [DropBrief](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-drop-brief/)
 - [DropLanes](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-drop-lanes/)
 - [DropProposal](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-drop-proposal/)
+- [GenerationAccepted](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-generation-accepted/)
 - [Plans](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-plans/)
 - [SignupInitiated](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-signup-initiated/)
+- [Video](https://apis.io/schemas/aicontentdrop-com/aicontentdrop-com-video/)
 
 #### JSON-LD (1)
 
@@ -119,21 +128,21 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aicontentdrop Com Authentication](https://apis.io/security/aicontentdrop-com/aicontentdrop-com-authentication/)
-- [Aicontentdrop Com Domain Security](https://apis.io/security/aicontentdrop-com/aicontentdrop-com-domain-security/)
-- [Aicontentdrop Com Vulnerability Disclosure](https://apis.io/security/aicontentdrop-com/aicontentdrop-com-vulnerability-disclosure/)
+- [AI Content Drop Authentication](https://apis.io/security/aicontentdrop-com/aicontentdrop-com-authentication/)
+- [AI Content Drop Domain Security](https://apis.io/security/aicontentdrop-com/aicontentdrop-com-domain-security/)
+- [AI Content Drop Vulnerability Disclosure](https://apis.io/security/aicontentdrop-com/aicontentdrop-com-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Aicontentdrop Com Plans Pricing](https://apis.io/plans/aicontentdrop-com/aicontentdrop-com-plans-pricing/)
+- [AI Content Drop Plans Pricing](https://apis.io/plans/aicontentdrop-com/aicontentdrop-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Aicontentdrop Com Rate Limits](https://apis.io/rate-limits/aicontentdrop-com/aicontentdrop-com-rate-limits/)
+- [AI Content Drop Rate Limits](https://apis.io/rate-limits/aicontentdrop-com/aicontentdrop-com-rate-limits/)
 
 ## Where to find this API
 
@@ -152,7 +161,50 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/aicontentdrop-com/](https://apis.io/providers/aicontentdrop-com/).
+**Kin Score 65.5** — strong · rubric 0.28.1 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 81.7 |
+| Contract quality | 66.3 |
+| Contract governance | 22.0 |
+| Operational transparency | 64.3 |
+| Developer ergonomics | 66.1 |
+| Access clarity | 76.6 |
+
+**Agent readiness 56.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
+| Consent Identity | deployed |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | yes |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aicontentdrop-com/](https://apis.io/providers/aicontentdrop-com/).
 
 ## How this profile is made
 
